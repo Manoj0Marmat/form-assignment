@@ -1,0 +1,82 @@
+body {
+  background-color: #31363b;
+}
+input[type="number"] {
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+span {
+  font-size: 12px;
+  color: #ff0000;
+}
+.errortext {
+  color: #ff0000;
+}
+.successtext {
+  color: #4bb543;
+}
+input[type="button"] {
+  width: 100%;
+  background-color: #af4c4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.successsubmit {
+  background-color: #4caf50 !important;
+  color: #f2f2f2;
+}
+.errorsubmit {
+  background-color: #af4c4c !important;
+  color: #f2f2f2 !important;
+}
+.errorsubmit:hover {
+  background-color: #a04545;
+}
+.successsubmit:hover {
+  background-color: #45a049;
+}
+input[type="submit"]:hover {
+  background-color: #a04545;
+}
+.captcha {
+  width: 80px !important;
+}
+
+div {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.verified {
+  color: white;
+  background: rgba(59, 112, 2, 0.65);
+  box-shadow: 0 8px 32px 0 rgb(43, 255, 0);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    width: 80%;
+  }
+}

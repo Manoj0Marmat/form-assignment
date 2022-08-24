@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thank you</title>
+    <link rel="stylesheet" href="../css/thankyou.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h3>Verification</h3>
+      <label id="message"></label>
+      <br />
+      <br />
+      <input
+        type="number"
+        id="otp"
+        name="otp"
+        placeholder="OTP"
+        onchange="checkOtpInput()"
+      />
+
+      <span id="otpmsg"></span>
+      <br />
+      <input
+        type="checkbox"
+        id="checkotp"
+        name="otp"
+        placeholder="Check OTP"
+        onchange="checkOtpInput()"
+      />
+      <span>click here before submit</span>
+      <br />
+      <span id="attemptavailabel"></span>
+      <br />
+      <input
+        type="button"
+        value="Submit"
+        id="submitbutton"
+        onclick="onSubmit()"
+      />
+    </div>
+  </body>
+  <script src="../js/otp.js"></script>
+  <script src="../js/verification.js"></script>
+</html>
