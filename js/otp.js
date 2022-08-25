@@ -35,7 +35,7 @@ Thank you for your inquiry. A 4 digit verification number has been sent to your 
     this.verify = function (value) {
       let otp = data;
 
-      if (this.attempt < 1) {
+      if (this.attempt < 0) {
         // if attempt is finish then redirect to 404 page
         window.location.replace("http://pixel6.co/404");
       } else if (value != otp) {
@@ -53,7 +53,7 @@ Thank you for your inquiry. A 4 digit verification number has been sent to your 
           .classList.remove("successsubmit");
         document.getElementById("submitbutton").classList.add("errorsubmit");
         document.getElementById("checkotp").checked = false;
-      } else if (value == otp && this.attempt > 0) {
+      } else if (value == otp && this.attempt >= 0) {
         // if match then show successfull msg and redir home page
         document.getElementById("container").innerHTML =
           "<h1>Verified Successfully!</h1>";
