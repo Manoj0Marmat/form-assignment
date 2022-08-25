@@ -27,7 +27,6 @@ single button to go on Loan Application Page
   replaces the old captcha with a new one. (we would like to see how you handle this)
 - Submit (submits only on correct validations)
 
-<img src="/doc/assets/personal-details.gif" alt="personal-details"/>
 
 ## Thank You Page
 
@@ -37,10 +36,3 @@ single button to go on Loan Application Page
   Successful!' and redirect the user to the Pixel6 home page.
 - else reset this OTP form and ask the user to reenter. If a user fails to enter the right number in 3 attempts,
   redirect the user to 404 (page not found) page on Pixel6 website.
-
-### Success and 404
-<br />
-  <img type="gif" src="/doc/assets/thank-you-verified.gif" alt="home"/>
-<br />
-<br />
-  <img type="gif" src="/doc/assets/thank-you-error.gif" alt="home"/>
