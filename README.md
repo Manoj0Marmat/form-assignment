@@ -3,16 +3,16 @@
 ## **C++ only used for writing logics not used in project.** Converted C++ logic in JS.
 
 ---
-## Live Demo https://pixel6-form-assignment.netlify.app
+# Live Demo https://pixel6-form-assignment.netlify.app
 ---
 
-Home Page
+## Home Page
 
 single button to go on Loan Application Page
 
 <img src="/doc/assets/home.gif" alt="home"/>
 
-Loan Application Page
+## Loan Application Page
 
 - Full Name (only alphabets and spaces allowed, min two words each with min 4 chars)
 - Email (Email validation)
@@ -29,19 +29,18 @@ Loan Application Page
 
 <img src="/doc/assets/personal-details.gif" alt="personal-details"/>
 
-Thank You Page
+## Thank You Page
 
-OTP
+### OTP
 
 - If the number matches the random number generated earlier, replace the OTP form with a 'Validation
   Successful!' and redirect the user to the Pixel6 home page.
 - else reset this OTP form and ask the user to reenter. If a user fails to enter the right number in 3 attempts,
   redirect the user to 404 (page not found) page on Pixel6 website.
 
-Success
+### Success and 404
 <br />
   <img type="gif" src="/doc/assets/thank-you-verified.gif" alt="home"/>
 <br />
-404
 <br />
   <img type="gif" src="/doc/assets/thank-you-error.gif" alt="home"/>
