@@ -37,6 +37,9 @@ OTP
   redirect the user to 404 (page not found) page on Pixel6 website.
 
 Success
-<img type="gif" src="/doc/assets/thank-you-verified.gif" alt="home"/>
+<br />
+  <img type="gif" src="/doc/assets/thank-you-verified.gif" alt="home"/>
+<br />
 404
-<img type="gif" src="/doc/assets/thank-you-error.gif" alt="home"/>
+<br />
+  <img type="gif" src="/doc/assets/thank-you-error.gif" alt="home"/>
