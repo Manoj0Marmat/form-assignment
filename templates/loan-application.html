@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="http://pixel6.co/wp-content/themes/pixel6/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/personaldetails.css" />
+    <title>Personal Details</title>
+  </head>
+
+  <body>
+    <div>
+      <h2>Enter Personal Details</h2>
+      <form action="./thank-you.html" onchange="checkSubmit()" method="get">
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Full Name"
+          onchange="getFullName()"
+        />
+        <span id="fullnamemsg"></span>
+        <br />
+        <br />
+
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+          onchange="getEmail()"
+        />
+        <span id="emailmsg"></span>
+        <br />
+        <br />
+
+        <input
+          type="text"
+          id="pan"
+          name="pan"
+          placeholder="PAN"
+          onchange="getPan()"
+        />
+        <span id="panmsg"></span>
+        <br />
+        <br />
+
+        <input
+          type="number"
+          id="amount"
+          name="amount"
+          placeholder="Amount"
+          onchange="getAmount()"
+        />
+        <span id="amountmsg"></span>
+        <br />
+        <label id="amountinword"></label>
+        <br />
+        <span>must filled above boxes before go on captcha </span>
+        <br />
+        <label id="captchalabel"></label>
+        <br />
+        <input
+          type="number"
+          id="recaptcha"
+          name="captcha"
+          placeholder=""
+          class="captcha"
+        />
+        <span>enter the sum of even digits in box </span>
+        <br />
+        <label id="captchamsg"></label>
+        <br />
+        <input type="button" value="reload" id="captchabutton" />
+        <input type="button" value="submit" id="checkcaptchabutton" />
+        <br /><br />
+        <input type="submit" value="Submit" id="submitbutton" />
+      </form>
+    </div>
+  </body>
+  <script src="../js/formvalidation.js"></script>
+  <script src="../js/functions.js"></script>
+  <script src="../js/index.js"></script>
+</html>
