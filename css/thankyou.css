@@ -66,13 +66,13 @@ div {
   transform: translate(-50%, -50%);
 }
 .verified {
-  color: white;
-  background: rgba(59, 112, 2, 0.65);
+  color: rgb(43, 255, 0);
+  background: rgba(84, 83, 83, 0.6);
   box-shadow: 0 8px 32px 0 rgb(43, 255, 0);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgb(43, 255, 0);
 }
 
 @media only screen and (max-width: 600px) {
