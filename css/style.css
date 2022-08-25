@@ -1,15 +1,6 @@
 body {
   background-color: #31363b;
 }
-input[type="text"],
-input[type="number"] {
-  width: 100%;
-  padding: 12px 20px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
 span {
   font-size: 12px;
   color: #ff0000;
@@ -19,16 +10,6 @@ span {
 }
 .successtext {
   color: #4bb543;
-}
-input[type="submit"] {
-  width: 100%;
-  background-color: #af4c4c;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 .successsubmit {
   background-color: #4caf50 !important;
@@ -50,7 +31,16 @@ input[type="submit"]:hover {
 .captcha {
   width: 80px !important;
 }
-
+input[type="submit"] {
+  width: 100%;
+  background-color: #af4c4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 div {
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.6);
@@ -65,12 +55,4 @@ div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-div h2 {
-  text-align: center;
-}
-@media only screen and (max-width: 600px) {
-  div {
-    width: 80%;
-  }
 }
