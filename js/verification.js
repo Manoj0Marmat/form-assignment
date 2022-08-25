@@ -29,11 +29,13 @@ function checkOtpInput() {
     document.getElementById("submitbutton").disabled = false;
     document.getElementById("submitbutton").classList.remove("errorsubmit");
     document.getElementById("submitbutton").classList.add("successsubmit");
-  } else {
+  } else if (i != 4) {
     document.getElementById("submitbutton").disabled = true;
     document.getElementById("submitbutton").classList.remove("successsubmit");
     document.getElementById("submitbutton").classList.add("errorsubmit");
     error("", "otpmsg", "otp must be 4 digit");
+  } else {
+    error("", "otpmsg", "");
   }
 }
 // verifying otp on submit
