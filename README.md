@@ -1,6 +1,6 @@
 # Assignment Pixel6
 
-## **C++ only used for writing logics not used in project.** Converted C++ logic in JS.
+## **C++ only used for write logic. it is not used in project.** Converted C++ logic in JS.
 
 ---
 # Live Demo https://pixel6-form-assignment.netlify.app
